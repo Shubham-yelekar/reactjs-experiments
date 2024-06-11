@@ -1,11 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import ColorBar from './componenets/ColorBar'
 
 function App() {
-
+  const [color, setColor ] = useState('bg-red-500')
 
   return (
-    <h1>New Project</h1>
+    <body className={`w-full h-[100vh] pb-8 flex flex-col justify-end items-center duration-200 ${color}`}>
+      <ColorBar setColor={setColor} />
+    </body>
   )
 }
 
