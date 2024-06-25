@@ -4,7 +4,7 @@ import HomeIcon from './icons/HomeIcon'
 import MessageIcon from './icons/MessageIcon'
 import MusicIcon from './icons/MusicIcon'
 import SettingIcons from './icons/SettingIcons'
-import { useTheme } from '../theme-context'
+
 const Navbar = () => {
   const linkClass = ({isActive}) => isActive ?"activeLink" : ""
 

@@ -8,8 +8,9 @@ const MainLayout = () => {
   return (
     <>
     <ToggleSwitch/>
+    <Outlet/>
       <Navbar/>
-      <Outlet/>
+
     </>
   )
 }

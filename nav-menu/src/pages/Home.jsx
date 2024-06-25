@@ -1,5 +1,6 @@
 
 import {motion} from "framer-motion"
+import RiveIcon from "../components/icons/RiveIcon"
 
 const Home = () => {
   return (
@@ -14,6 +15,8 @@ const Home = () => {
         className='float-mid'>
         Home
       </motion.h1>
+
+      <RiveIcon/>
       </>
   )
 }
