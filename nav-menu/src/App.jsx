@@ -12,6 +12,7 @@ import Message from "./pages/Message"
 import Music from "./pages/Music"
 import Setting from "./pages/Setting"
 import PageNotFound from "./pages/PageNotFound"
+import { ThemeProvider } from "./theme-context";
 
 function App() {
 
@@ -28,7 +29,10 @@ function App() {
   )
 
   return (
-    <RouterProvider router={router}></RouterProvider>
+    <ThemeProvider>
+      <RouterProvider router={router}></RouterProvider>
+    </ThemeProvider>
+
   )
 }
 

@@ -8,6 +8,18 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+ [data-theme= 'light']{
+  --bg-color : rgb(245, 245, 245);
+  --text-color: rgb(15, 15, 15);
+}
+
+[data-theme= 'dark']{
+  --bg-color : rgb(15, 15, 15);
+  --text-color: rgb(245, 245, 245);
+}
+
+
+
  html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -20,6 +32,7 @@
 /**
  * Remove the margin in all browsers.
  */
+
 
 body {
   margin: 0;
@@ -359,7 +372,8 @@ template {
 }
 
 body {
-  background-color: rgb(245, 245, 245);
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 
@@ -402,4 +416,67 @@ ul {
 }
 .activeLink {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px, rgba(0, 0, 0, 0.1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* Remove this container when use*/
+.component-title {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  top: 30px;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #888;
+  text-align: center;
+}
+
+/* The switch - the box around the slider */
+.container {
+  width: 51px;
+  height: 31px;
+  position: relative;
+}
+
+/* Hide default HTML checkbox */
+.checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.switch {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #e9e9eb;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+/* The slider */
+.slider {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: calc(50% - 27px/2 - 10px);
+  top: calc(50% - 27px/2);
+  border-radius: 50%;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.checkbox:checked + .switch {
+  background-color: #34C759;
+}
+
+.checkbox:checked + .switch .slider {
+  left: calc(50% - 27px/2 + 10px);
+  top: calc(50% - 27px/2);
 }

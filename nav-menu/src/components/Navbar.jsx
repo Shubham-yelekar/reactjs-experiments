@@ -4,6 +4,7 @@ import HomeIcon from './icons/HomeIcon'
 import MessageIcon from './icons/MessageIcon'
 import MusicIcon from './icons/MusicIcon'
 import SettingIcons from './icons/SettingIcons'
+import { useTheme } from '../theme-context'
 const Navbar = () => {
   const linkClass = ({isActive}) => isActive ?"activeLink" : ""
 
@@ -16,6 +17,7 @@ const Navbar = () => {
         <li className='nav-link'><NavLink to={'/music'} className={linkClass} ><MusicIcon color ="orange"/></NavLink></li>
         <li className='nav-link'><NavLink to={'/setting'} className={linkClass} ><SettingIcons color = "red"/></NavLink></li>
       </ul>
+
     </nav>
   )
 }
