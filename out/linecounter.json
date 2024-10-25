@@ -1,0 +1,149 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "d:\\shubham\\reactjs-experiments",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2024-10-25 17:45:10",
+            "filesum": 15,
+            "codesum": 5353,
+            "commentsum": 13,
+            "blanksum": 98,
+            "statistics": {
+                ".js": {
+                    "code": 64,
+                    "comment": 2,
+                    "blank": 2
+                },
+                ".md": {
+                    "code": 8,
+                    "comment": 2,
+                    "blank": 4
+                },
+                ".jsx": {
+                    "code": 56,
+                    "comment": 0,
+                    "blank": 11
+                },
+                ".html": {
+                    "code": 16,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".json": {
+                    "code": 5190,
+                    "comment": 0,
+                    "blank": 79
+                },
+                ".svg": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".css": {
+                    "code": 3,
+                    "comment": 0,
+                    "blank": 0
+                },
+                "": {
+                    "code": 14,
+                    "comment": 9,
+                    "blank": 2
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 9,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\.gitignore"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\eslint.config.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\index.html"
+                },
+                {
+                    "blank": 79,
+                    "code": 5158,
+                    "comment": 0,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\package.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\postcss.config.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\public\\vite.svg"
+                },
+                {
+                    "blank": 3,
+                    "code": 5,
+                    "comment": 2,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\src\\App.css"
+                },
+                {
+                    "blank": 10,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\src\\App.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\src\\assets\\react.svg"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\src\\main.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 1,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\tailwind.config.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 1,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\project\\vite.config.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "Udemy-projects\\password-generator-reactjs\\README.md"
+                }
+            ]
+        }
+    ]
+}

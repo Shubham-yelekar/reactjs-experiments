@@ -1,0 +1,39 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2024-10-25 17:45:10
+count workspace : d:\shubham\reactjs-experiments
+total files : 15
+total code lines : 5353
+total comment lines : 13
+total blank lines : 98
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .js|             64|              2|              2|    1.2|
+   |            .md|              8|              2|              4|   0.15|
+   |           .jsx|             56|              0|             11|    1.0|
+   |          .html|             16|              0|              0|   0.30|
+   |          .json|           5190|              0|             79|     97|
+   |           .svg|              2|              0|              0|  0.037|
+   |           .css|              3|              0|              0|  0.056|
+   |               |             14|              9|              2|   0.26|
+   -------------------------------------------------------------------------
+Udemy-projects\password-generator-reactjs\project\.gitignore, code is 14, comment is 9, blank is 2.
+Udemy-projects\password-generator-reactjs\project\eslint.config.js, code is 37, comment is 0, blank is 1.
+Udemy-projects\password-generator-reactjs\project\index.html, code is 16, comment is 0, blank is 0.
+Udemy-projects\password-generator-reactjs\project\package-lock.json, code is 5158, comment is 0, blank is 79.
+Udemy-projects\password-generator-reactjs\project\package.json, code is 32, comment is 0, blank is 0.
+Udemy-projects\password-generator-reactjs\project\postcss.config.js, code is 6, comment is 0, blank is 0.
+Udemy-projects\password-generator-reactjs\project\public\vite.svg, code is 1, comment is 0, blank is 0.
+Udemy-projects\password-generator-reactjs\project\README.md, code is 5, comment is 2, blank is 3.
+Udemy-projects\password-generator-reactjs\project\src\App.css, code is 3, comment is 0, blank is 0.
+Udemy-projects\password-generator-reactjs\project\src\App.jsx, code is 48, comment is 0, blank is 10.
+Udemy-projects\password-generator-reactjs\project\src\assets\react.svg, code is 1, comment is 0, blank is 0.
+Udemy-projects\password-generator-reactjs\project\src\main.jsx, code is 8, comment is 0, blank is 1.
+Udemy-projects\password-generator-reactjs\project\tailwind.config.js, code is 16, comment is 1, blank is 0.
+Udemy-projects\password-generator-reactjs\project\vite.config.js, code is 5, comment is 1, blank is 1.
+Udemy-projects\password-generator-reactjs\README.md, code is 3, comment is 0, blank is 1.
+===============================================================================
