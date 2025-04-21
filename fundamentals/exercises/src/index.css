@@ -1,0 +1,11 @@
+body {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+table tr td {
+  cursor: pointer;
+}
