@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Section from "./Section";
+import Section from "./useEffects/Section";
 const Home = () => {
   let [visit, setVisit] = useState(0);
   function visitUp() {
