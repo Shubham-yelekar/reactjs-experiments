@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Geist", sans-serif;
   font-optical-sizing: auto;
@@ -8,4 +13,80 @@ body {
 
 table tr td {
   cursor: pointer;
+}
+
+ul li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(14, 14, 14);
+}
+
+a:visited {
+  color: rgb(141, 141, 141);
+}
+
+nav {
+  background-color: rgb(238, 238, 238);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav img {
+  width: 100px;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(/pokeball_gray.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: rotate 2s ease-out 0.5s infinite forwards;
+  /* transform: all; */
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(720deg);
+  }
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 80vh;
+  background-color: rgb(168, 241, 229);
+  position: relative;
+}
+
+.card {
+  background: rgb(240, 240, 240);
+  border-radius: 24px;
+  border: 1px solid rgb(236, 236, 236);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+}
+
+.card h4 {
+  font-size: 24px;
+  text-transform: capitalize;
 }
