@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  --primary-font-family: "Geist", sans-serif;
+}
+
+* {
+  font-family: var(--primary-font-family);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer {
+  h1 {
+    --heading-font-family: var(--primary-font-family);
+  }
+}
