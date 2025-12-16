@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Card from "../../ui/Card";
 import Button from "../../ui/Button";
 
-const ProductListPresenter = ({ products, addItemToCart, clearCart }) => {
+const ProductListPresenter = ({ products, addItemToCart }) => {
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   function handleLowtoHigh() {

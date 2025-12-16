@@ -8,15 +8,10 @@ import Summary from "./Summary";
 const ProductListContainer = () => {
   const [productList, setProductList] = useState([]);
   const [cart, setCart] = useState([]);
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        `${import.meta.env.VITE_BASE_URL}\products`
+        `${import.meta.env.VITE_BASE_URL}/products`
       );
 
       setProductList(response.data);
@@ -24,15 +19,27 @@ const ProductListContainer = () => {
       console.log(error);
     }
   };
+  useEffect(() => {
+    fetchData();
+  }, []);
 
   function addItemToCart(id) {
-    const product = productList.find((item) => item.id === id);
-    setCart((prev) =>
-      prev.some((item) => item.id === id) ? prev : [...prev, product]
-    );
+    setCart((prevCart) => {
+      const existingProduct = prevCart.find((i) => i.id === id);
+      if (existingProduct) {
+        return prevCart.map((item) =>
+          item.id === id
+            ? { ...item, cartQuantity: item.cartQuantity + 1 }
+            : item
+        );
+      }
+      const newItem = productList.find((i) => i.id === id);
+      if (!newItem) return prevCart;
+      return [...prevCart, { ...newItem, cartQuantity: 1 }];
+    });
   }
   function clearCart() {
-    console.log("clear");
+    setCart(() => []);
   }
   return (
     <div className="flex gap-2">
@@ -41,7 +48,7 @@ const ProductListContainer = () => {
         addItemToCart={addItemToCart}
         clearCart={clearCart}
       />
-      <Summary cartList={cart} />
+      <Summary cartList={cart} clearCart={clearCart} />
     </div>
   );
 };
